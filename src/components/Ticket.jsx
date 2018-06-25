@@ -6,7 +6,7 @@ function Ticket(props) {
     fontFamily: 'helvetica',
     backgroundColor: 'lightyellow',
     padding: '20px'
-  }
+  };
   return (
     <div style={ticketStyles}>
       <h3>{props.location} - {props.names}</h3>

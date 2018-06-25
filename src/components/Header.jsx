@@ -8,7 +8,7 @@ function Header() {
     fontSize: '2em',
     padding: '30px',
     textAlign: 'center'
-  }
+  };
   return (
     <div style={headerStyles}>
       <h1>Help Queue</h1>
