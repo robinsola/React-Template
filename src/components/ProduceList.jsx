@@ -283,7 +283,7 @@ function ProduceList () {
           justify-content: center;
         }
         li {
-          margin: 10px 0 0 0;
+          margin: 8px 0 0 0;
         }
       `}</style>
       <h1>What's In Season?</h1>
