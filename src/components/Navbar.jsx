@@ -9,7 +9,7 @@ function Navbar () {
           display: flex;
           justify-content: center;
           list-style: none;
-          margin: 20px 0;
+          margin: 20px 0 0 0;
           padding: 10px;
           border-bottom: 1px solid gray;
         }
@@ -24,7 +24,15 @@ function Navbar () {
           background-color: gray;
         }
         h1 {
-          text-align: center;
+          margin: 40px 0;
+          color: white;
+        }
+        .header {
+          display: flex;
+          justify-content: center;
+          height: 600px;
+          background: url("https://images.pexels.com/photos/533360/pexels-photo-533360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+          background-position: center;
         }
       `}</style>
       <ul>
@@ -33,7 +41,9 @@ function Navbar () {
         <li><a href="#">Schedule</a></li>
         <li><a href="#">Produce</a></li>
       </ul>
-      <h1>Avery's Organics</h1>
+      <div className="header">
+        <h1>Avery's Organics</h1>
+      </div>
     </div>
   );
 }
