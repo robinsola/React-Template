@@ -1,12 +1,20 @@
 import React from 'react';
-import Header from './Header';
-import TicketList from './TicketList';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div>
-      <Header />
-      <TicketList />
+      <style jsx global>{`
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        div {
+          font-family: helvetica;
+          font-weight: 100;
+        }
+      `}</style>
+      <Navbar />
     </div>
   );
 }
