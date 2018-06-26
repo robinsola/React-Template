@@ -15,7 +15,7 @@ var masterTicketList = [
   {
     names: 'Joe and Robin',
     location: '8E',
-    issue: 'Donkey picture not displaying on hover in Zoology app.',
+    issue: 'Donkey picture not displaying on hover in Zoology app.'
   }
 ];
 
