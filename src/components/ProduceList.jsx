@@ -285,14 +285,15 @@ function ProduceList () {
         }
         li {
           margin: 8px 0 0 0;
+
         }
       `}</style>
       <h1>What's In Season?</h1>
       <div className="listItems">
         {masterProduceList.map((produce, index) =>
           <Produce month={produce.month}
-            selection={produce.selection.map((selection) =>
-              <li>{selection}</li>
+            selection={produce.selection.map((selection, index) =>
+              <li key={index}>{selection}</li>
             )}
             key={index}
           />
