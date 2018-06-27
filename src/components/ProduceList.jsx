@@ -276,6 +276,7 @@ function ProduceList () {
       <style jsx>{`
         h1 {
           text-align: center;
+          margin: 30px 0 0 0;
         }
         .listItems {
           display: flex;

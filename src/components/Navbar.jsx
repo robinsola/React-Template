@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   var linkStyles = {
-    textDecoration: 'none',
-  }
+    textDecoration: 'none'
+  };
   return(
     <div>
       <style jsx>{`
