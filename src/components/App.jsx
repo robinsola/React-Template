@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import EventList from './EventList';
-import ProduceList from './ProduceList';
+import Router from './Router';
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
         }
       `}</style>
       <Navbar />
-      <EventList />
-      <ProduceList />
+      <Router />
     </div>
   );
 }
