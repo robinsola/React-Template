@@ -20,6 +20,7 @@ function Navbar() {
           padding: 10px 20px;
           text-decoration: none;
           color: white;
+          transition: background-color .5s;
         }
         li:hover {
           background-color: white;

@@ -14,6 +14,17 @@ function App() {
           font-family: helvetica;
           font-weight: 100;
         }
+        h1 {
+          font-family: georgia;
+          margin: 100px 0;
+          color: white;
+          font-size: 4em;
+          text-shadow: 1.5px 1.5px 6px black;
+        }
+        .header {
+          display: flex;
+          justify-content: center;
+        }
       `}</style>
       <Navbar />
       <Router />

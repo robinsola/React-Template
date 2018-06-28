@@ -1,5 +1,8 @@
 import React from 'react';
 import Produce from './Produce';
+import pumpkins from '../assets/images/pumpkins.jpeg';
+import fruit from '../assets/images/fruit.jpeg';
+import produce from '../assets/images/produce.jpg';
 
 const masterProduceList = [
   {
@@ -274,10 +277,6 @@ function ProduceList () {
   return (
     <div>
       <style jsx>{`
-        h1 {
-          text-align: center;
-          margin: 30px 0 0 0;
-        }
         .listItems {
           display: flex;
           flex-wrap: wrap;
@@ -285,10 +284,16 @@ function ProduceList () {
         }
         li {
           margin: 8px 0 0 0;
-
+        }
+        .header {
+          height: 400px;
+          background: url(${produce});
+          background-position: center;
         }
       `}</style>
-      <h1>What's In Season?</h1>
+    <div className="header">
+        <h1>What's In Season?</h1>
+      </div>
       <div className="listItems">
         {masterProduceList.map((produce, index) =>
           <Produce month={produce.month}

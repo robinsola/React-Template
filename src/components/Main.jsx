@@ -1,20 +1,14 @@
 import React from 'react';
+import basket from '../assets/images/basket.jpeg';
 
 function Main () {
   return (
     <div>
       <style jsx>{`
-        h1 {
-          margin: 100px 0;
-          color: white;
-        }
         .header {
-          display: flex;
-          justify-content: center;
-          height: 700px;
-          font-size: 2em;
-          background: url("https://images.pexels.com/photos/533360/pexels-photo-533360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+          background: url(${basket});
           background-position: center;
+          height: 700px;
         }
       `}</style>
       <div className="header">
